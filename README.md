@@ -7,7 +7,7 @@
 1. Клонируйте репозиторий на свой компьютер:
 
    ```bash
-   https://github.com/ashot-gimishyan/Task-Manager.git
+   git clone https://github.com/ashot-gimishyan/Task-Manager.git
 
 2. Запустите приложение:
    
