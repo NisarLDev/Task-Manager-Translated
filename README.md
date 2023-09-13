@@ -22,5 +22,4 @@
 
 ## Обратная связь
 
-- Telegram: @reimash_dev
 - E-mail: reimash512@gmail.com
