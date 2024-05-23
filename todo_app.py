@@ -6,7 +6,7 @@ import pickle
 class TodoApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Планировщик дел")
+        self.root.title("Planificador de tareas pendientes")
 
         self.tasks_red = []
         self.tasks_yellow = []
