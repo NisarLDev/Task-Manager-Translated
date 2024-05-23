@@ -38,7 +38,7 @@ class TodoApp:
         self.priority_label.pack()
 
         self.priority_var = tk.StringVar()
-        self.priority_var.set("Красный")
+        self.priority_var.set("Rojo")
         self.priority_radio_red = tk.Radiobutton(root, text="Красный", variable=self.priority_var, value="Красный", command=self.update_task_listbox)
         self.priority_radio_yellow = tk.Radiobutton(root, text="Желтый", variable=self.priority_var, value="Желтый", command=self.update_task_listbox)
         self.priority_radio_green = tk.Radiobutton(root, text="Зеленый", variable=self.priority_var, value="Зеленый", command=self.update_task_listbox)
@@ -49,7 +49,7 @@ class TodoApp:
         self.menu = tk.Menu(root)
         self.root.config(menu=self.menu)
         self.file_menu = tk.Menu(self.menu, tearoff=0)
-        self.menu.add_cascade(label="Файл", menu=self.file_menu)
+        self.menu.add_cascade(label="Archivo", menu=self.file_menu)
         self.file_menu.add_command(label="Сохранить", command=self.save_tasks)
         self.file_menu.add_command(label="Загрузить", command=self.load_tasks)
         self.file_menu.add_separator()
