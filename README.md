@@ -6,12 +6,14 @@ El repositorio contiene una aplicación sencilla de programación de tareas que 
 
 Paso 1º:
 
-   ```bash
-   git clone https://github.com/NisarLDev/Task-Manager-Translated.git && cd Task-Manager-Translated
+      ```bash
+      git clone https://github.com/NisarLDev/Task-Manager-Translated.git && cd Task-Manager-Translated
+
+
 Paso 2º:
    
-   ```bash
-   python3 Gestor_de_tareas.py
+      ```bash
+      python3 Gestor_de_tareas.py
 
 Paso 3º: Agregue tareas eligiendo una prioridad y una fecha (la fecha predeterminada será la actual). La prioridad se selecciona mediante los botones de opción (rojo, amarillo, verde).
 4. Используйте кнопки "Завершить" и "Удалить", чтобы управлять задачами. Также вы можете сохранять и загружать списки задач с помощью меню "Файл".
