@@ -60,10 +60,10 @@ class Gestor_de_Tareas:
         self.about_menu = tk.Menu(self.menu, tearoff=0)
         self.menu.add_cascade(label="Acerca del programa", menu=self.about_menu)
         self.about_menu.add_command(label="Información", command=self.show_about_info)
-
+    # Función para mostrar la fecha actual
     def get_current_date(self):
         return datetime.now().strftime("%Y-%m-%d")
-
+    # Función para agregar tareas nuevas
     def add_task(self):
         task = self.task_entry.get()
         date = self.date_entry.get() or self.get_current_date()
@@ -81,7 +81,7 @@ class Gestor_de_Tareas:
             self.task_entry.delete(0, tk.END)
             self.date_entry.delete(0, tk.END)
             self.date_entry.insert(0, self.get_current_date())
-
+    # Función para actualizar la lista de tareas
     def update_task_listbox(self):
         self.task_listbox.delete(0, tk.END)
         selected_priority = self.priority_var.get()
@@ -95,7 +95,7 @@ class Gestor_de_Tareas:
 
         for task, date in tasks:
             self.task_listbox.insert(tk.END, f"({selected_priority}) ({date}) {task}")
-
+    # Función de tareas completadas
     def complete_task(self):
         selected_priority = self.priority_var.get()
         selected_task_index = self.task_listbox.curselection()
@@ -111,7 +111,7 @@ class Gestor_de_Tareas:
             completed_task = tasks[selected_task_index[0]]
             tasks.remove(completed_task)
             self.update_task_listbox()
-
+    # Función para eliminar las tareas existentes individualmente
     def delete_task(self):
         selected_priority = self.priority_var.get()
         selected_task_index = self.task_listbox.curselection()
