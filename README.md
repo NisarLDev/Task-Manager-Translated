@@ -4,7 +4,7 @@ El repositorio contiene una aplicación sencilla de programación de tareas que 
 
 ## Cómo usar el programa
 
-1. Клонируйте репозиторий на свой компьютер:
+Paso 1º:
 
    ```bash
    git clone https://github.com/NisarLDev/Task-Manager-Translated.git && cd Task-Manager-Translated
