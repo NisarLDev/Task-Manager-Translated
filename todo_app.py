@@ -14,7 +14,7 @@ class Gestor_de_Tareas:
         self.tasks_yellow = []
         self.tasks_green = []
 
-        self.task_entry = tk.Entry(root, width=40)
+        self.task_entry = tk.Entry(root, text="Introduzca el nombre de la tarea:" width=40)
         self.task_entry.pack(pady=10)
 
         self.date_label = tk.Label(root, text="Fecha de la tarea:")
