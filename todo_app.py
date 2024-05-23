@@ -3,6 +3,8 @@ from tkinter import messagebox
 from datetime import datetime
 import pickle
 # Definición de la clase principal "Gestor_de_Tareas"
+# Clase creada "Gestor_de_Tareas" para la parte del "modelo" del Modelo Vista Controlador (MVC). Para gestión de CRUD.
+
 class Gestor_de_Tareas:
     def __init__(self, root):
         self.root = root
