@@ -98,11 +98,11 @@ class TodoApp:
         selected_priority = self.priority_var.get()
         selected_task_index = self.task_listbox.curselection()
 
-        if selected_priority == "Красный":
+        if selected_priority == "Rojo":
             tasks = self.tasks_red
-        elif selected_priority == "Желтый":
+        elif selected_priority == "Amarillo":
             tasks = self.tasks_yellow
-        elif selected_priority == "Зеленый":
+        elif selected_priority == "Verde":
             tasks = self.tasks_green
 
         if selected_task_index:
@@ -114,11 +114,11 @@ class TodoApp:
         selected_priority = self.priority_var.get()
         selected_task_index = self.task_listbox.curselection()
 
-        if selected_priority == "Красный":
+        if selected_priority == "Rojo":
             tasks = self.tasks_red
-        elif selected_priority == "Желтый":
+        elif selected_priority == "Amarillo":
             tasks = self.tasks_yellow
-        elif selected_priority == "Зеленый":
+        elif selected_priority == "Verde":
             tasks = self.tasks_green
 
         if selected_task_index:
@@ -133,7 +133,7 @@ class TodoApp:
         }
         with open("tasks.pkl", "wb") as f:
             pickle.dump(tasks_to_save, f)
-        messagebox.showinfo("Сохранено", "Списки дел были сохранены.")
+        messagebox.showinfo("Guardado", "Las listas de tareas pendientes se han guardado.")
 
     def load_tasks(self):
         try:
@@ -143,7 +143,7 @@ class TodoApp:
             self.tasks_yellow = tasks_to_load["tasks_yellow"]
             self.tasks_green = tasks_to_load["tasks_green"]
             self.update_task_listbox()
-            messagebox.showinfo("Загружено", "Списки дел были загружены.")
+            messagebox.showinfo("Cargado", "Se han cargado las listas de tareas pendientes.")
         except FileNotFoundError:
             messagebox.showerror("Ошибка", "Файл не найден.")
 
