@@ -152,7 +152,7 @@ class TodoApp:
         about_text += "Esta aplicación te ayudará a organizar tus tareas por prioridad.\n"
         about_text += "Las tareas se dividen en tres categorías por color:\n\n"
         about_text += "• Lista roja - cosas muy importantes\n"
-        about_text += "• Желтый список - относительно важные дела\n"
+        about_text += "• Lista amarilla: asuntos relativamente importantes\n"
         about_text += "• Зеленый список - не очень важные дела\n\n"
         about_text += "Выберите цвет задачи с помощью радиокнопок. Если вы не указываете дату,\n"
         about_text += "то автоматически будет использована текущая дата.\n"
