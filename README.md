@@ -1,6 +1,6 @@
 # Gestor de tareas traducido del original
 
-Репозиторий содержит простое приложение для планирования дел с использованием библиотеки Tkinter в Python. Планировщик дел позволяет организовать задачи по приоритетам и цветам, а также сохранять и загружать списки задач.
+El repositorio contiene una aplicación sencilla de programación de tareas que utiliza la biblioteca Tkinter en Python. El planificador de tareas le permite organizar las tareas por prioridad y color, así como guardar y cargar listas de tareas.
 
 ## Как использовать
 
