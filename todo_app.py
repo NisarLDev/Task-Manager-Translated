@@ -50,14 +50,14 @@ class TodoApp:
         self.root.config(menu=self.menu)
         self.file_menu = tk.Menu(self.menu, tearoff=0)
         self.menu.add_cascade(label="Archivo", menu=self.file_menu)
-        self.file_menu.add_command(label="Сохранить", command=self.save_tasks)
-        self.file_menu.add_command(label="Загрузить", command=self.load_tasks)
+        self.file_menu.add_command(label="Guardar tarea", command=self.save_tasks)
+        self.file_menu.add_command(label="Cargar tarea", command=self.load_tasks)
         self.file_menu.add_separator()
-        self.file_menu.add_command(label="Выход", command=root.quit)
+        self.file_menu.add_command(label="Salir del programa", command=root.quit)
 
         self.about_menu = tk.Menu(self.menu, tearoff=0)
-        self.menu.add_cascade(label="О программе", menu=self.about_menu)
-        self.about_menu.add_command(label="Информация", command=self.show_about_info)
+        self.menu.add_cascade(label="Acerca del programa", menu=self.about_menu)
+        self.about_menu.add_command(label="Información", command=self.show_about_info)
 
     def get_current_date(self):
         return datetime.now().strftime("%Y-%m-%d")
