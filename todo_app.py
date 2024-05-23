@@ -156,7 +156,7 @@ class TodoApp:
         about_text += "• Lista verde: cosas no muy importantes\n\n"
         about_text += "Seleccione el color de la tarea usando los botones de radio. Si no especifica una fecha,\n"
         about_text += "entonces la fecha actual se utilizará automáticamente.\n"
-        about_text += "Вы можете сохранить и загрузить списки дел.\n\n"
+        about_text += "Puede guardar y cargar listas de tareas pendientes.\n\n"
         about_text += "Автор: Ashot Gimishyan\n"
         about_text += "Дата: " + datetime.now().strftime("%d.%m.%Y")
 
