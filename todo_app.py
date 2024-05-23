@@ -28,7 +28,7 @@ class TodoApp:
         self.task_listbox = tk.Listbox(root, width=50, height=10)
         self.task_listbox.pack(pady=10)
 
-        self.complete_button = tk.Button(root, text="Завершить", command=self.complete_task)
+        self.complete_button = tk.Button(root, text="Completado", command=self.complete_task)
         self.complete_button.pack()
 
         self.delete_button = tk.Button(root, text="Удалить", command=self.delete_task)
