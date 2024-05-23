@@ -15,7 +15,7 @@ class TodoApp:
         self.task_entry = tk.Entry(root, width=40)
         self.task_entry.pack(pady=10)
 
-        self.date_label = tk.Label(root, text="Дата:")
+        self.date_label = tk.Label(root, text="Datos:")
         self.date_label.pack()
 
         self.date_entry = tk.Entry(root, width=40)
