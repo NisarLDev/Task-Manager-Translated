@@ -17,6 +17,6 @@ Paso 2º:
 
 Paso 3º: Agregue tareas eligiendo una prioridad y una fecha (la fecha predeterminada será la actual). La prioridad se selecciona mediante los botones de opción (rojo, amarillo, verde).
 
-Paso 4º: Используйте кнопки "Завершить" и "Удалить", чтобы управлять задачами. Также вы можете сохранять и загружать списки задач с помощью меню "Файл".
+Paso 4º: Utilice los botones Finalizar y Eliminar para administrar tareas. También puede guardar y cargar listas de tareas usando el menú Archivo.
 
 Paso 5º: В меню "О программе" вы найдете информацию о приложении, объясняющую метод планирования дел по цветам и их важность.
