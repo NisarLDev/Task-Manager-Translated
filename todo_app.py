@@ -68,11 +68,11 @@ class TodoApp:
         priority = self.priority_var.get()
 
         if task:
-            if priority == "Красный":
+            if priority == "Rojo":
                 self.tasks_red.append((task, date))
-            elif priority == "Желтый":
+            elif priority == "Amarillo":
                 self.tasks_yellow.append((task, date))
-            elif priority == "Зеленый":
+            elif priority == "Verde":
                 self.tasks_green.append((task, date))
 
             self.update_task_listbox()
@@ -84,11 +84,11 @@ class TodoApp:
         self.task_listbox.delete(0, tk.END)
         selected_priority = self.priority_var.get()
 
-        if selected_priority == "Красный":
+        if selected_priority == "Rojo":
             tasks = self.tasks_red
-        elif selected_priority == "Желтый":
+        elif selected_priority == "Amarillo":
             tasks = self.tasks_yellow
-        elif selected_priority == "Зеленый":
+        elif selected_priority == "Verde":
             tasks = self.tasks_green
 
         for task, date in tasks:
