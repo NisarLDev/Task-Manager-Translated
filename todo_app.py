@@ -145,10 +145,10 @@ class TodoApp:
             self.update_task_listbox()
             messagebox.showinfo("Cargado", "Se han cargado las listas de tareas pendientes.")
         except FileNotFoundError:
-            messagebox.showerror("Ошибка", "Файл не найден.")
+            messagebox.showerror("Error", "Archivo no encontrado.")
 
     def show_about_info(self):
-        about_text = "Планировщик дел v1.0\n\n"
+        about_text = "Planificador de tareas pendientes v1.0\n\n"
         about_text += "Это приложение поможет вам организовать ваши дела по приоритетам.\n"
         about_text += "Задачи делятся на три категории по цветам:\n\n"
         about_text += "• Красный список - очень важные дела\n"
