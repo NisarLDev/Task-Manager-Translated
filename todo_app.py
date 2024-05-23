@@ -154,7 +154,7 @@ class TodoApp:
         about_text += "• Lista roja - cosas muy importantes\n"
         about_text += "• Lista amarilla: asuntos relativamente importantes\n"
         about_text += "• Lista verde: cosas no muy importantes\n\n"
-        about_text += "Выберите цвет задачи с помощью радиокнопок. Если вы не указываете дату,\n"
+        about_text += "Seleccione el color de la tarea usando los botones de radio. Si no especifica una fecha,\n"
         about_text += "то автоматически будет использована текущая дата.\n"
         about_text += "Вы можете сохранить и загрузить списки дел.\n\n"
         about_text += "Автор: Ashot Gimishyan\n"
