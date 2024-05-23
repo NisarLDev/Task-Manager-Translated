@@ -17,7 +17,7 @@ class Gestor_de_Tareas:
         self.task_entry = tk.Entry(root, width=40)
         self.task_entry.pack(pady=10)
 
-        self.date_label = tk.Label(root, text="Datos:")
+        self.date_label = tk.Label(root, text="Fecha de la tarea:")
         self.date_label.pack()
 
         self.date_entry = tk.Entry(root, width=40)
