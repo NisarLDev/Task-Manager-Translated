@@ -126,7 +126,7 @@ class Gestor_de_Tareas:
         if selected_task_index:
             tasks.pop(selected_task_index[0])
             self.update_task_listbox()
-
+    # Función para guardar la lista de las tareas incluso si luego se cierra el programa 
     def save_tasks(self):
         tasks_to_save = {
             "tasks_red": self.tasks_red,
@@ -136,7 +136,7 @@ class Gestor_de_Tareas:
         with open("tasks.pkl", "wb") as f:
             pickle.dump(tasks_to_save, f)
         messagebox.showinfo("Guardado", "Las listas de tareas pendientes se han guardado.")
-
+    # Función para cargar la lista de tareas pendientes
     def load_tasks(self):
         # Control de excepciones mediante el método Try-Catch
         try:
@@ -149,7 +149,7 @@ class Gestor_de_Tareas:
             messagebox.showinfo("Cargado", "Se han cargado las listas de tareas pendientes.")
         except FileNotFoundError:
             messagebox.showerror("Error", "Archivo no encontrado.")
-
+    # Función que muestra la información acerca del funcionamiento del programa
     def show_about_info(self):
         about_text = "Gestor de tareas gráfico en Tkinter. Autor Nisar Laftissi. Versión 1.0\n\n"
         about_text += "Esta aplicación te ayudará a organizar tus tareas por prioridad.\n"
