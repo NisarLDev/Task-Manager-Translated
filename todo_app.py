@@ -1,12 +1,12 @@
-limport tkinter as tk
+import tkinter as tk
 from tkinter import messagebox
 from datetime import datetime
 import pickle
-
-class TodoApp:
+# Definición de la clase principal "Gestor_de_Tareas"
+class Gestor_de_Tareas:
     def __init__(self, root):
         self.root = root
-        self.root.title("Planificador de tareas pendientes")
+        self.root.title("Gestor de tareas gráfico en Tkinter. Autor Nisar Laftissi.")
 
         self.tasks_red = []
         self.tasks_yellow = []
@@ -136,6 +136,7 @@ class TodoApp:
         messagebox.showinfo("Guardado", "Las listas de tareas pendientes se han guardado.")
 
     def load_tasks(self):
+        # Control de excepciones mediante el método Try-Catch
         try:
             with open("tasks.pkl", "rb") as f:
                 tasks_to_load = pickle.load(f)
@@ -148,7 +149,7 @@ class TodoApp:
             messagebox.showerror("Error", "Archivo no encontrado.")
 
     def show_about_info(self):
-        about_text = "Planificador de tareas pendientes v1.0\n\n"
+        about_text = "Gestor de tareas gráfico en Tkinter. Autor Nisar Laftissi. Versión 1.0\n\n"
         about_text += "Esta aplicación te ayudará a organizar tus tareas por prioridad.\n"
         about_text += "Las tareas se dividen en tres categorías por color:\n\n"
         about_text += "• Lista roja - cosas muy importantes\n"
@@ -157,12 +158,12 @@ class TodoApp:
         about_text += "Seleccione el color de la tarea usando los botones de radio. Si no especifica una fecha,\n"
         about_text += "entonces la fecha actual se utilizará automáticamente.\n"
         about_text += "Puede guardar y cargar listas de tareas pendientes.\n\n"
-        about_text += "Автор: Ashot Gimishyan\n"
-        about_text += "Дата: " + datetime.now().strftime("%d.%m.%Y")
+        about_text += "Autor: Nisar Laftissi.\n"
+        about_text += "Fecha: " + datetime.now().strftime("%d.%m.%Y")
 
-        messagebox.showinfo("Acerca del programa", about_text)
+        messagebox.showinfo("Acerca del programa.", about_text)
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = TodoApp(root)
+    app = Gestor_de_Tareas(root)
     root.mainloop()
