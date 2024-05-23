@@ -150,7 +150,7 @@ class TodoApp:
     def show_about_info(self):
         about_text = "Planificador de tareas pendientes v1.0\n\n"
         about_text += "Esta aplicación te ayudará a organizar tus tareas por prioridad.\n"
-        about_text += "Задачи делятся на три категории по цветам:\n\n"
+        about_text += "Las tareas se dividen en tres categorías por color:\n\n"
         about_text += "• Красный список - очень важные дела\n"
         about_text += "• Желтый список - относительно важные дела\n"
         about_text += "• Зеленый список - не очень важные дела\n\n"
