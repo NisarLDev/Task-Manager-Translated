@@ -22,7 +22,7 @@ class TodoApp:
         self.date_entry.pack(pady=10)
         self.date_entry.insert(0, self.get_current_date())
 
-        self.add_button = tk.Button(root, text="Добавить задачу", command=self.add_task)
+        self.add_button = tk.Button(root, text="Agregar una tarea", command=self.add_task)
         self.add_button.pack()
 
         self.task_listbox = tk.Listbox(root, width=50, height=10)
