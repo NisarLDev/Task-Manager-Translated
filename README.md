@@ -2,7 +2,7 @@
 
 El repositorio contiene una aplicación sencilla de programación de tareas que utiliza la biblioteca Tkinter en Python. El planificador de tareas le permite organizar las tareas por prioridad y color, así como guardar y cargar listas de tareas.
 
-## Как использовать
+## Cómo usar el programa
 
 1. Клонируйте репозиторий на свой компьютер:
 
