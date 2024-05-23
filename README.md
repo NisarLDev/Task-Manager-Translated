@@ -7,12 +7,12 @@
 1. Клонируйте репозиторий на свой компьютер:
 
    ```bash
-   git clone https://github.com/ashot-gimishyan/Task-Manager.git && cd Task-Manager
+   git clone https://github.com/NisarLDev/Task-Manager-Translated.git && cd Task-Manager-Translated
 
 2. Запустите приложение:
    
    ```bash
-   python3 todo_app.py
+   python3 Gestor_de_tareas.py
 
 3. Добавьте задачи, выбирая приоритет и дату (по умолчанию будет текущая дата). Выбор приоритета производится с помощью радиокнопок (Красный, Желтый, Зеленый).
 
