@@ -8,14 +8,12 @@ Paso 1º:
 
    ```bash
    git clone https://github.com/NisarLDev/Task-Manager-Translated.git && cd Task-Manager-Translated
-
-2. Запустите приложение:
+Paso 2º:
    
    ```bash
    python3 Gestor_de_tareas.py
 
-3. Добавьте задачи, выбирая приоритет и дату (по умолчанию будет текущая дата). Выбор приоритета производится с помощью радиокнопок (Красный, Желтый, Зеленый).
-
+Paso 3º: Agregue tareas eligiendo una prioridad y una fecha (la fecha predeterminada será la actual). La prioridad se selecciona mediante los botones de opción (rojo, amarillo, verde).
 4. Используйте кнопки "Завершить" и "Удалить", чтобы управлять задачами. Также вы можете сохранять и загружать списки задач с помощью меню "Файл".
 
 5. В меню "О программе" вы найдете информацию о приложении, объясняющую метод планирования дел по цветам и их важность.
