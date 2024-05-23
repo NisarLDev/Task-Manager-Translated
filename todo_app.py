@@ -160,7 +160,7 @@ class TodoApp:
         about_text += "Автор: Ashot Gimishyan\n"
         about_text += "Дата: " + datetime.now().strftime("%d.%m.%Y")
 
-        messagebox.showinfo("О программе", about_text)
+        messagebox.showinfo("Acerca del programa", about_text)
 
 if __name__ == "__main__":
     root = tk.Tk()
