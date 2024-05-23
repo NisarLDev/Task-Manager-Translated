@@ -39,8 +39,8 @@ class TodoApp:
 
         self.priority_var = tk.StringVar()
         self.priority_var.set("Rojo")
-        self.priority_radio_red = tk.Radiobutton(root, text="Красный", variable=self.priority_var, value="Красный", command=self.update_task_listbox)
-        self.priority_radio_yellow = tk.Radiobutton(root, text="Желтый", variable=self.priority_var, value="Желтый", command=self.update_task_listbox)
+        self.priority_radio_red = tk.Radiobutton(root, text="Rojo", variable=self.priority_var, value="Rojo", command=self.update_task_listbox)
+        self.priority_radio_yellow = tk.Radiobutton(root, text="Amarillo", variable=self.priority_var, value="Amarillo", command=self.update_task_listbox)
         self.priority_radio_green = tk.Radiobutton(root, text="Зеленый", variable=self.priority_var, value="Зеленый", command=self.update_task_listbox)
         self.priority_radio_red.pack()
         self.priority_radio_yellow.pack()
