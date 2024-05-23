@@ -1,4 +1,4 @@
-import tkinter as tk
+limport tkinter as tk
 from tkinter import messagebox
 from datetime import datetime
 import pickle
@@ -31,10 +31,10 @@ class TodoApp:
         self.complete_button = tk.Button(root, text="Completado", command=self.complete_task)
         self.complete_button.pack()
 
-        self.delete_button = tk.Button(root, text="Удалить", command=self.delete_task)
+        self.delete_button = tk.Button(root, text="Eliminar tarea", command=self.delete_task)
         self.delete_button.pack()
 
-        self.priority_label = tk.Label(root, text="Приоритет:")
+        self.priority_label = tk.Label(root, text="Prioridad:")
         self.priority_label.pack()
 
         self.priority_var = tk.StringVar()
